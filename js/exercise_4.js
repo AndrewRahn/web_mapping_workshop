@@ -19,7 +19,7 @@ var map = L.mapbox.map('map', mapId);
 
 var dataFileToAdd = 'data/restaurants.geojson';
 
-var featureLater = L.mapbox.featureLayer ();
+var featureLayer = L.mapbox.featureLayer ();
 	featureLayer.loadURL(dataFileToAdd);
 	featureLayer.addTo(map);
 
